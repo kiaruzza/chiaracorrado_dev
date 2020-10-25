@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://chiaracorrado.dev" #without ending slash
+baseurl = "https://kiaruzza.github.io" #without ending slash
 languageCode = "en-us"
 title = "chiaracorrado.dev"
 theme = "hugo-identity-theme"
