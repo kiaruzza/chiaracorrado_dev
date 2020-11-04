@@ -1,5 +1,6 @@
 # Site settings
 baseurl = "https://kiaruzza.github.io" #without ending slash
+# baseurl = "http://localhost:1313" #without ending slash
 languageCode = "en-us"
 title = "chiaracorrado.dev"
 theme = "hugo-identity-theme"
@@ -30,7 +31,10 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
   # Link custom assets relative to /static
   #custom_js  = [""]
-  #custom_css = ["background.css", "icons.css"]
+  #custom_css = ["backgraound.css", "icons.css"]
+	
+  relativeURLs = true
+  uglyURLs = true
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
